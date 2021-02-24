@@ -1,0 +1,23 @@
+{
+    "name": "Her Amigo",
+    "short_name": "Her Amigo",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#C5168D",
+    "theme_color": "#C5168D",
+    "description": "Her Amigo | Cross Platform Application designed for Women Safety and Consultancy.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": true,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
