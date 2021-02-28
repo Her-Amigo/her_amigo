@@ -10,7 +10,7 @@ Disaster never comes up with prior warning but still, but we can took measures t
 For iOS app consult the Web app link. 
 
 ## Social Media
-[![Facebook](https://img.shields.io/badge/Facebook-Like-C5168E?logo=Facebook&logoColor=ffffff)](https://www.facebook.com/heramigoapp) [![Instagram](https://img.shields.io/badge/Instagram-Follow-C5168E?logo=Instagram&logoColor=ffffff)](https://www.instagram.com/heramigoapp) 
+[![Facebook](https://img.shields.io/badge/Facebook-Like-C5168E?logo=Facebook&logoColor=ffffff)](https://www.facebook.com/heramigoapp) [![Instagram](https://img.shields.io/badge/Instagram-Follow-C5168E?logo=Instagram&logoColor=ffffff)](https://www.instagram.com/heramigoapp) [![Twitter](https://img.shields.io/badge/Twitter-Follow-C5168E?logo=Twitter&logoColor=ffffff)](https://www.twitter.com/heramigoapp)
 
 
 ## Let's Connect
