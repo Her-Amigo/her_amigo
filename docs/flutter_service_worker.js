@@ -3,26 +3,31 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "ec0d7cd637a661f7195ee2c1ed61fba2",
+  "app-ads.txt": "71c514ef5294434e731d8af6ed598388",
+"assets/AssetManifest.json": "67ac86b60346186b76cd1f6a487026ed",
 "assets/assets/fonts/Sail-Regular.ttf": "820151b880fd3140fa9a1b230c2391bc",
 "assets/assets/images/app_inside_banner(Her%2520Amigo).jpg": "c9aaae2394cabdedd16c65e4a4cfb117",
 "assets/assets/images/ayesha.jpg": "cd37068a7f05ae2c2506eb805c7fad87",
 "assets/assets/images/her_shield.png": "4a3cf9f5a8ce6393d6bc226c085c3012",
 "assets/FontManifest.json": "44e342fe5854c64e7caedc6415f8b89d",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "7a8f61617ba2387172364f0ddde30f68",
+"assets/NOTICES": "305201d8e35edef8ab0a0a60d35f3228",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
+"assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
+"CNAME": "aec446d9f5dae018e3ad69e136479e90",
 "favicon.png": "e11b6808b7a9ce955017c9a2d08dc627",
 "icons/icon-192.png": "4bc6d994168838a9d4a18f148dc05a56",
 "icons/icon-512.png": "a3514640779653725903e0ab08da82a0",
-"index.html": "43ac10db7c3fa768eb674e11defe89ce",
-"/": "43ac10db7c3fa768eb674e11defe89ce",
-"main.dart.js": "beb825298bf9462fa676c36ef0600f83",
-"manifest.json": "189c3c719e6ea0e6e7c1796473c0cabe",
+"index.html": "1c7e88195f323589c39b07844d6984ab",
+"/": "1c7e88195f323589c39b07844d6984ab",
+"main.dart.js": "c6ad99db51cab76eb77f59baa2901065",
+"manifest.json": "ea2d0dbd734b37d8ae480ed7439fc7e5",
 "script.js": "82f86c1fc95ec414a8f51b23fd40c03a",
+"service-worker.js": "f733d78ed0caa99fa9cb0f7499d27904",
 "version.json": "b56b7a47971cbd68b6fbe44303434937"
 };
 
@@ -167,7 +172,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
