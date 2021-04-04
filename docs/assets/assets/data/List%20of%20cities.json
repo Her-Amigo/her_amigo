@@ -1,0 +1,50 @@
+{
+  "List": {
+    "Punjab": {
+      "1": "Lahore",
+      "2": "Multan",
+      "3": "Faisalabad",
+      "4": "Rawalpindi",
+      "5": "Islamabad",
+      "6": "Bhawalpur",
+      "7": "Rahim Yar Khan",
+      "8": "Sargodha",
+      "9": "Gujrat",
+      "10": "Sialkot",
+      "11": "Gujranwala",
+      "12": "Sahiwal",
+      "13": "Dera Ghazi Khan",
+      "14": "Lodhran",
+      "15": "Sheikhupura",
+      "16": "Wah",
+      "17": "Khariyan",
+      "18": "Taxila",
+      "19": "Narowal"
+    },
+    "Sindh": {
+      "1": "Karachi",
+      "2": "Larkana",
+      "3": "Jamshoroo",
+      "4": "Lyari",
+      "5": "Sukkur",
+      "6": "Gambat",
+      "7": "Hyderabad",
+      "8": "Mirpur Khas",
+      "9": "Tando Muhammad Khan"
+    },
+    "KPK": {
+      "1": "Peshawar",
+      "2": "Abbottabad",
+      "3": "Dera Ismail Khan",
+      "4": "Swat",
+      "5": "Mardan",
+      "6": "Kohat",
+      "7": "Bannu",
+      "8": "Nowshera",
+      "9": "Swabi"
+    },
+    "Balochistan": {
+      "1": "Quetta"
+    }
+  }
+}
