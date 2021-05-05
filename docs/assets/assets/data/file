@@ -1,0 +1,134 @@
+Wrap(
+                      crossAxisAlignment: WrapCrossAlignment.center,
+                      alignment: WrapAlignment.center,
+                      runSpacing: 8,
+                      spacing: 6,
+                      children: <Widget>[
+                        Container(
+                          width: 170,
+                          height: 150,
+                          padding: EdgeInsets.all(10.0),
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 2, color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: <Widget>[
+                              IconButton(
+                                iconSize: 70,
+                                tooltip: 'Add FAQs',
+                                icon: Icon(
+                                  Icons.question_answer_outlined,
+                                  color: Color(0xffC5168D),
+                                ),
+                                onPressed: () => Get.to(UpdateFaqs()),
+                              ),
+                              Text(
+                                'Add FAQs',
+                                textAlign: TextAlign.center,
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          width: 170,
+                          height: 150,
+                          padding: EdgeInsets.all(10.0),
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 2, color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: <Widget>[
+                              IconButton(
+                                iconSize: 70,
+                                tooltip: 'Add Quick Tips',
+                                icon: Icon(
+                                  Icons.privacy_tip_outlined,
+                                  color: Color(0xffC5168D),
+                                ),
+                                onPressed: () => Get.to(() => AddQuickTips()),
+                              ),
+                              Text(
+                                'Add Quick Tips',
+                                textAlign: TextAlign.center,
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          width: 170,
+                          height: 150,
+                          padding: EdgeInsets.all(10.0),
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 2, color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: <Widget>[
+                              IconButton(
+                                iconSize: 70,
+                                tooltip: 'Add Hospitals & Clinics',
+                                icon: Icon(
+                                  Icons.local_hospital_rounded,
+                                  color: Color(0xffC5168D),
+                                ),
+                                onPressed: () {
+                                  Get.to(AddClinics());
+                                },
+                              ),
+                              Text(
+                                'Add Hospitals & Clinics',
+                                textAlign: TextAlign.center,
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          width: 170,
+                          height: 150,
+                          padding: EdgeInsets.all(10.0),
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 2, color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: <Widget>[
+                              IconButton(
+                                iconSize: 70,
+                                tooltip: 'Approve Consultants',
+                                icon: Icon(
+                                  Icons.person_add,
+                                  color: Color(0xffC5168D),
+                                ),
+                                onPressed: () =>
+                                    Get.to(() => PendingConsultants()),
+                              ),
+                              Text(
+                                'Approve Consultants',
+                                textAlign: TextAlign.center,
+                              ),
+                            ],
+                          ),
+                        ),
+                        mainGestureWidget(
+                          width: 170,
+                          height: 150,
+                          text: "Video References",
+                          iconData: Icon(
+                            Icons.music_video_sharp,
+                            size: 70,
+                            semanticLabel: 'Video References',
+                          ),
+                          ontap: () => Get.to(() => VideoReference()),
+                        ),
+                      ],
+                    ),
